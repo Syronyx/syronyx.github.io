@@ -1,1 +1,1 @@
-# syronyx.github.io
+# syronyx
