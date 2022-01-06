@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #949cac;
   text-decoration: none;
 }
 
@@ -394,9 +394,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition : .7s
 }
+
 .row img:hover{
   border-radius: 35px;
   transition : .7s;
+  transform : scale(1.1)
 }
 
 @-webkit-keyframes up-down {
@@ -546,6 +548,7 @@ section {
   font-size: 18px;
   color: #012970;
   font-weight: 700;
+  transform: scale(1.1);
   margin: 0;
 }
 
@@ -561,6 +564,7 @@ section {
 
 .features .feature-box:hover i {
   background: #4154f1;
+  transform: scale(1.1);
   color: #fff;
 }
 
@@ -1123,7 +1127,10 @@ section {
 .team .member img {
   max-width: 100%;
   margin: 0 0 30px 0;
+  border-radius: 50%;
 }
+
+
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
@@ -1240,7 +1247,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #4454f3;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1258,7 +1265,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #4454f3;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
