@@ -217,6 +217,7 @@ section {
 .header .logo img {
   max-height: 40px;
   margin-right: 6px;
+  border-radius: 5cm;
 }
 
 .header .logo span {
