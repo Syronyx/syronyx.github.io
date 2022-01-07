@@ -4,7 +4,7 @@ $("#contact-form").submit((e) => {
   document.querySelector(".loading").style.display = "block";
   $.ajax({
     url:
-      "https://script.google.com/macros/s/AKfycby4TfACDBj-s5bkgJm_HNli6sB5qzgz2e8uhPaZPushoDW9jncZzLbi/exec",
+      "https://script.google.com/macros/s/AKfycbzbMmhZ7XJU8zTgCHXY-pXLFr-2YbU19vR112bcGxTEXLLexdWjXsscp70c8WBUFbRqhw/exec",
     data: $("#contact-form").serialize(),
     method: "post",
     success: function (response) {
