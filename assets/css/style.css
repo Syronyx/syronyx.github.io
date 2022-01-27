@@ -843,6 +843,9 @@ section {
   color: #2db6fa;
   background: #dbf3fe;
 }
+.services .service-box.blue .icon:hover {
+  border-radius: 20%;
+}
 
 .services .service-box.blue .read-more {
   color: #2db6fa;
@@ -859,6 +862,9 @@ section {
 .services .service-box.orange .icon {
   color: #f68c09;
   background: #fde3c4;
+}
+.services .service-box.orange .icon:hover {
+  border-radius: 20%;
 }
 
 .services .service-box.orange .read-more {
@@ -877,6 +883,9 @@ section {
   color: #08da4e;
   background: #cffddf;
 }
+.services .service-box.green .icon:hover {
+  border-radius: 20%;
+}
 
 .services .service-box.green .read-more {
   color: #08da4e;
@@ -893,6 +902,9 @@ section {
 .services .service-box.red .icon {
   color: #e9222c;
   background: #fef7f8;
+}
+.services .service-box.red .icon:hover {
+  border-radius: 20%;
 }
 
 .services .service-box.red .read-more {
@@ -911,6 +923,9 @@ section {
   color: #b50edf;
   background: #f8e4fd;
 }
+.services .service-box.purple .icon:hover {
+  border-radius: 20%;
+}
 
 .services .service-box.purple .read-more {
   color: #b50edf;
@@ -928,6 +943,9 @@ section {
   color: #f51f9c;
   background: #feecf7;
 }
+.services .service-box.pink .icon:hover {
+  border-radius: 20%;
+}
 
 .services .service-box.pink .read-more {
   color: #f51f9c;
@@ -935,6 +953,46 @@ section {
 
 .services .service-box.pink:hover {
   background: #f51f9c;
+}
+
+.services .service-box.grey {
+  border-bottom: 3px solid #6A6567  ;
+}
+
+.services .service-box.grey .icon {
+  color: #4e4e4e;
+  background: #cecece;
+
+}.services .service-box.grey .icon:hover {
+  border-radius: 20%;
+}
+
+.services .service-box.grey .read-more {
+  color: #6A6567;
+}
+
+.services .service-box.grey:hover {
+  background: #6A6567;
+}
+
+.services .service-box.maroon {
+  border-bottom: 3px solid #770000  ;
+}
+
+.services .service-box.maroon .icon {
+  color: #770000;
+  background: #fddddd;
+
+}.services .service-box.maroon .icon:hover {
+  border-radius: 20%;
+}
+
+.services .service-box.maroon .read-more {
+  color: #770000;
+}
+
+.services .service-box.maroon:hover {
+  background: #770000;
 }
 
 .services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
